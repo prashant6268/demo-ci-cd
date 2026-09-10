@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "Main",
-            "image": "738759745415.dkr.ecr.us-east-1.amazonaws.com/demo",
+            "image": "738759745415.dkr.ecr.us-east-1.amazonaws.com/demo1",
             "cpu": 0,
             "portMappings": [
                 {
