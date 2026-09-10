@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:letest
 
 RUN apt-get update && \
     apt-get install -y apache2 && \
