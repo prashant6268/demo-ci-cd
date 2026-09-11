@@ -36,7 +36,7 @@ env:
   ECR_REPOSITORY: demo2
   ECS_SERVICE: service
   ECS_CLUSTER: Cluster
-  ECS_TASK_DEFINITION: task.json
+  ECS_TASK_DEFINITION: task
   CONTAINER_NAME: Main
 permissions:
   contents: read
