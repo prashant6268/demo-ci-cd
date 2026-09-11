@@ -7,10 +7,10 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: demo1
-  ECS_SERVICE: Task-service
-  ECS_CLUSTER: demo-cluster
-  ECS_TASK_DEFINITION: taskdef.json
+  ECR_REPOSITORY: demo2
+  ECS_SERVICE: Task-definition
+  ECS_CLUSTER: Cluster
+  ECS_TASK_DEFINITION: Task-definition
   CONTAINER_NAME: Main
 
 permissions:
