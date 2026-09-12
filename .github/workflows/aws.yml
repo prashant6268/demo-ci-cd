@@ -34,7 +34,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: demo2
   ECS_SERVICE: service
-  ECS_CLUSTER: Cluster
+  ECS_CLUSTER: cluster2
   ECS_TASK_DEFINITION: task.json
   CONTAINER_NAME: Main
 
@@ -50,6 +50,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
+          role-to-assume: arn:aws:iam::738759745415:role/githubactionrole
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
