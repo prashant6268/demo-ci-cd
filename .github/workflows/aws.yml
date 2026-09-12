@@ -33,9 +33,9 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: demo2
-  ECS_SERVICE: service
+  ECS_SERVICE: Task-definition-service-h21rqnru
   ECS_CLUSTER: cluster2
-  ECS_TASK_DEFINITION: task.json
+  ECS_TASK_DEFINITION: Task-definition-service-h21rqnru
   CONTAINER_NAME: Main
 
 jobs:
