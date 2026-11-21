@@ -1,4 +1,4 @@
-Step 1: Create an ECR Repository
+# Step 1: Create an ECR Repository
 Open AWS Console.
 Go to Amazon ECR.
 Click Create Repository.
